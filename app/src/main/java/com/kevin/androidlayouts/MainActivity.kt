@@ -31,5 +31,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, RelativeLayout::class.java)
             startActivity(intent)
         }
+
+        mainBinding.relativeAssignmentBtn.setOnClickListener {
+            val intent = Intent(this, RelativeAssignment::class.java)
+            startActivity(intent)
+        }
     }
 }
