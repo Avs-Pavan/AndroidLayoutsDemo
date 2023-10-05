@@ -36,4 +36,19 @@
         android:layout_margin="10dp"
         android:text="Relative layout assignment" />
 
+
+    <Button
+        android:id="@+id/constraintBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Constraint layout demo" />
+
+    <Button
+        android:id="@+id/constraintAssignmentBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Constraint layout assignment" />
+
 </LinearLayout>
