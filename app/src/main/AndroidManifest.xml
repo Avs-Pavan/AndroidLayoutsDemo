@@ -12,6 +12,9 @@
         android:theme="@style/Theme.AndroidLayouts"
         tools:targetApi="31">
         <activity
+            android:name=".RelativeLayout"
+            android:exported="false" />
+        <activity
             android:name=".LinearAssignment"
             android:exported="false" />
         <activity
