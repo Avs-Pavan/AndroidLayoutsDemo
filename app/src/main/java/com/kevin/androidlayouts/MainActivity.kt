@@ -47,6 +47,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        mainBinding.constraintAssignmentBtn2.setOnClickListener {
+            val intent = Intent(this, ConstraintLayoutAssignment2::class.java)
+            startActivity(intent)
+        }
+
 
     }
 }
