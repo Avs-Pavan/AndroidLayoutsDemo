@@ -52,6 +52,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        mainBinding.frameBtn.setOnClickListener {
+            val intent = Intent(this, FrameLayout::class.java)
+            startActivity(intent)
+        }
+
 
     }
 }
