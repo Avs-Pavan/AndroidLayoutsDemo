@@ -57,6 +57,16 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        mainBinding.frameAssignmentBtn.setOnClickListener {
+            val intent = Intent(this, FrameLayoutAssignment::class.java)
+            startActivity(intent)
+        }
+
+        mainBinding.tableBtn.setOnClickListener {
+            val intent = Intent(this, TableLayout::class.java)
+            startActivity(intent)
+        }
+
 
     }
 }
