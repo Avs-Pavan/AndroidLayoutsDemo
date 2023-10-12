@@ -7,6 +7,7 @@
     tools:context=".ConstraintLayout">
 
     <Button
+        android:id="@+id/top_start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Top start"
@@ -20,11 +21,44 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!--    chaining of buttons-->
+    <Button
+        android:id="@+id/chain_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Chain one"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintTop_toBottomOf="@id/top_start"
+        app:layout_constraintEnd_toStartOf="@id/chain_two"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/chain_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Chain two"
+        app:layout_constraintEnd_toStartOf="@id/chain_three"
+        app:layout_constraintTop_toBottomOf="@id/top_start"
+        app:layout_constraintStart_toEndOf="@id/chain_one" />
+
+    <Button
+        android:id="@+id/chain_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Chain three"
+        app:layout_constraintStart_toEndOf="@id/chain_two"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_start" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Bottom start"
         app:layout_constraintBottom_toBottomOf="parent"
+
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
