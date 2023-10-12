@@ -1,82 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:padding="10dp">
+    android:layout_height="match_parent">
 
-
-    <Button
-        android:id="@+id/linearBtn"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Linear layout demo" />
-
-    <Button
-        android:id="@+id/linearAssignmentBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Linear layout assignment" />
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
 
 
-    <Button
-        android:id="@+id/relativeBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Relative layout demo" />
+        <Button
+            android:id="@+id/linearBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Linear layout demo" />
 
-    <Button
-        android:id="@+id/relativeAssignmentBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Relative layout assignment" />
+        <Button
+            android:id="@+id/linearAssignmentBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Linear layout assignment" />
 
 
-    <Button
-        android:id="@+id/constraintBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Constraint layout demo" />
+        <Button
+            android:id="@+id/relativeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Relative layout demo" />
 
-    <Button
-        android:id="@+id/constraintAssignmentBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Constraint layout assignment" />
+        <Button
+            android:id="@+id/relativeAssignmentBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Relative layout assignment" />
 
-    <Button
-        android:id="@+id/constraintAssignmentBtn2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Constraint layout assignment 2" />
 
-    <Button
-        android:id="@+id/frameBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Frame layout demo" />
+        <Button
+            android:id="@+id/constraintBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Constraint layout demo" />
 
-    <Button
-        android:id="@+id/frameAssignmentBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Frame layout assignment" />
+        <Button
+            android:id="@+id/constraintAssignmentBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Constraint layout assignment" />
 
-    <Button
-        android:id="@+id/tableBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Table layout demo" />
+        <Button
+            android:id="@+id/constraintAssignmentBtn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Constraint layout assignment 2" />
 
-</LinearLayout>
+        <Button
+            android:id="@+id/barrierAssignmentBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Barrier Guideline assignment" />
+
+        <Button
+            android:id="@+id/frameBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Frame layout demo" />
+
+        <Button
+            android:id="@+id/frameAssignmentBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Frame layout assignment" />
+
+        <Button
+            android:id="@+id/tableBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Table layout demo" />
+
+    </LinearLayout>
+
+</ScrollView>

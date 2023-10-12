@@ -67,6 +67,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        mainBinding.barrierAssignmentBtn.setOnClickListener {
+            val intent = Intent(this, BarrierGuidelineAssignment::class.java)
+            startActivity(intent)
+        }
 
     }
 }
